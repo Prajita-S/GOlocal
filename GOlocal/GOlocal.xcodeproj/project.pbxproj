@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8AA71F626A7DB21001DA5AC /* optionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */; };
+		A8AA71F826A7DB86001DA5AC /* asianOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA71F726A7DB86001DA5AC /* asianOptionViewController.swift */; };
 		A8BBDEAB26A72D37001C49C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAA26A72D37001C49C7 /* AppDelegate.swift */; };
 		A8BBDEAD26A72D37001C49C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */; };
 		A8BBDEAF26A72D37001C49C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BBDEAE26A72D37001C49C7 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionsViewController.swift; sourceTree = "<group>"; };
+		A8AA71F726A7DB86001DA5AC /* asianOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asianOptionViewController.swift; sourceTree = "<group>"; };
 		A8BBDEA726A72D37001C49C7 /* GOlocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOlocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BBDEAA26A72D37001C49C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				A8BBDEAC26A72D37001C49C7 /* SceneDelegate.swift */,
 				A8BBDEAE26A72D37001C49C7 /* ViewController.swift */,
 				A8BBDEB026A72D37001C49C7 /* Main.storyboard */,
+				A8AA71F726A7DB86001DA5AC /* asianOptionViewController.swift */,
+				A8AA71F526A7DB21001DA5AC /* optionsViewController.swift */,
 				A8BBDEB626A72D38001C49C7 /* Assets.xcassets */,
 				A8BBDEB826A72D38001C49C7 /* LaunchScreen.storyboard */,
 				A8BBDEBB26A72D38001C49C7 /* Info.plist */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AA71F826A7DB86001DA5AC /* asianOptionViewController.swift in Sources */,
+				A8AA71F626A7DB21001DA5AC /* optionsViewController.swift in Sources */,
 				A8BBDEAF26A72D37001C49C7 /* ViewController.swift in Sources */,
 				A8BBDEB526A72D37001C49C7 /* GOlocal.xcdatamodeld in Sources */,
 				A8BBDEAB26A72D37001C49C7 /* AppDelegate.swift in Sources */,
