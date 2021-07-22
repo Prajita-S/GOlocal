@@ -1,5 +1,5 @@
 //
-//  optionsViewController.swift
+//  italianViewController.swift
 //  GOlocal
 //
 //  Created by  Scholar on 7/21/21.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class optionsViewController: UIViewController {
+class italianViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
     }
     
 
