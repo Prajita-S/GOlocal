@@ -15,31 +15,31 @@ class americanViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     // backyard grill
-    @IBAction func backyardWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func backyardWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://backyardgrillrestaurant.com/")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func backyardMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func backyardMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://backyardgrillrestaurant.com/menu/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func backyardAddress(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
     }
     // roots
     
-    @IBAction func rootsWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func rootsWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://www.rootsnaturalkitchen.com/address/1329-w-main-st-charlottesville-virginia-22903/")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func rootsMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func rootsMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://www.rootsnaturalkitchen.com/address/1329-w-main-st-charlottesville-virginia-22903/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func rootsAddress(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
     }
     // cooper's hawk
-    //issue
-    @IBAction func cooperWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    
+    @IBAction func cooperWeb(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://chwinery.com/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func copperMenu(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://chwinery.com/menus")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func copperAddress(_ sender: UIButton) {
@@ -48,19 +48,19 @@ class americanViewController: UIViewController {
     //21 Great American Bistro
     
     @IBAction func greatWeb(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://www.21gab.com/")! as URL, options: [:], completionHandler: nil)
     }
-    
-    @IBAction func greatMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+//issue
+    @IBAction func greatMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://www.21gab.com/sample-menu")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func greatAddress(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
     }
     //bob o's
-    @IBAction func bobWeb(_ sender: UIButton) {  UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func bobWeb(_ sender: UIButton) {  UIApplication.shared.open(URL(string:"https://www.bobosrestaurant.com/default.aspx")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func bobMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
+    @IBAction func bobMenu(_ sender: UIButton) { UIApplication.shared.open(URL(string:"https://www.bobosrestaurant.com/Menu/Menus.aspx")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func bobAddress(_ sender: UIButton) { UIApplication.shared.open(URL(string:"")! as URL, options: [:], completionHandler: nil)
